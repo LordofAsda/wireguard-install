@@ -46,7 +46,7 @@ This version of Ubuntu is too old and unsupported."
 	exit
 fi
 
-if [[ "$os" == "debian" && "$os_version" -lt 10 ]]; then
+if [[ "$os" == "debian" && "$os_version" -lt 11 ]]; then
 	echo "Debian 10 or higher is required to use this installer.
 This version of Debian is too old and unsupported."
 	exit
